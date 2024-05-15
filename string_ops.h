@@ -61,3 +61,11 @@ std::string capitalize(std::string str){
     str[0] = toupper(str[0]);
     return str;
 }
+bool startswith(std::string str char del){
+    for(char stabe:str){
+        if(stabe==del){
+            return true;
+            break;}
+        else{return false;
+                break;}}}
+                

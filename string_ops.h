@@ -68,4 +68,13 @@ bool startswith(std::string str char del){
             break;}
         else{return false;
                 break;}}}
+bool endswith(std::string str, char del){
+    for(int i = 0; i < str.length()-1){
+        if(i==str.length()-1){
+            if(str[i]==del){
+                return true;
+                break;}
+            else{
+                return false;
+                break;}}}}
                 
